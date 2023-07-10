@@ -20,8 +20,8 @@ def countdown():
     while countdown_seconds >= 0:
         hour = countdown_seconds // 3600
         minute = (countdown_seconds % 3600) // 60
-        second_remainder = (countdown_seconds % 3600) % 60
-        label["text"] = f"{hour:02d}:{minute:02d}:{second_remainder:02d}"
+        second = (countdown_seconds % 3600) % 60
+        label["text"] = f"{hour:02d}:{minute:02d}:{second:02d}"
         countdown_seconds -= 1
         main_screen.update()
         time.sleep(1)
