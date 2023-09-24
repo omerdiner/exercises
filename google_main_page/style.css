@@ -1,0 +1,76 @@
+/* Temel stiller */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Menü stillemeleri */
+  .menu {
+    text-align: right;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px; 
+    color: #333; 
+  }
+  
+  .menu a.blue-button {
+    background-color: #4285f4;
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Ana içerik stillemeleri */
+  .content {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .logo img {
+  max-width: 300px; 
+  height: auto;
+  }
+  
+  .search {
+    margin-top: 10px;
+  }
+  
+  /* Arama çubuğu stillemeleri */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  input[type="text"] {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+  }
+  
+  /* Arama düğmeleri stillemeleri */
+  .search-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="submit"] {
+    margin-right: 10px;
+    background-color: #4285f4; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:last-child {
+    margin-right: 0;
+  }
+  
